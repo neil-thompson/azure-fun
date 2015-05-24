@@ -120,8 +120,8 @@ Param(
     [Parameter(Mandatory = $true)]
     [ValidatePattern("^[a-z0-9]*$")]
     [String]$Name,                             # required    needs to be alphanumeric    
-    [String]$Location = "West US",             # optional    default to "West US", needs to be a location which all the services created here are available
-    [String]$SqlDatabaseUserName = "dbuser",   # optional    default to "dbuser"
+    [String]$Location = "West Europe",             # optional    default to "West US", needs to be a location which all the services created here are available
+    [String]$SqlDatabaseUserName = "azureneil",   # optional    default to "dbuser"
     [String]$SqlDatabasePassword,              # optional    optional, but required by a helper script. Set the value here or the helper script prompts you.
     [String]$StartIPAddress,                   # optional    start IP address of the range you want to whitelist in SQL Azure firewall will try to detect if not specified
     [String]$EndIPAddress                      # optional    end IP address of the range you want to whitelist in SQL Azure firewall will try to detect if not specified
