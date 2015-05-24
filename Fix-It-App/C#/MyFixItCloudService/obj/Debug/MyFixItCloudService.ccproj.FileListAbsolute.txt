@@ -1,0 +1,2 @@
+C:\Wombat\WLD-GitHub\azure-fun\Fix-It-App\C#\MyFixItCloudService\bin\Debug\ServiceConfiguration.cscfg
+C:\Wombat\WLD-GitHub\azure-fun\Fix-It-App\C#\MyFixItCloudService\bin\Debug\ServiceDefinition.csdef
