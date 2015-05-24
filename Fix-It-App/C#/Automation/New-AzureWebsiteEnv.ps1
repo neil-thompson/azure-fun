@@ -262,7 +262,8 @@ Function New-PublishXml
     )
     
     # Get the current subscription
-    $s = Get-AzureSubscription -Current
+    #$s = Get-AzureSubscription -Current
+	$s = Get-AzureSubscription -Current -ExtendedDetails 
     if (!$s) {throw "Cannot get Windows Azure subscription. Failure in Get-AzureSubscription in New-PublishXml in New-AzureWebsiteEnv.ps1"}
 
     $thumbprint = $s.Certificate.Thumbprint

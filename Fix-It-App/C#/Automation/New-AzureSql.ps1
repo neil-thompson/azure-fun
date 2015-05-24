@@ -191,7 +191,8 @@ function New-FirewallRuleForWebsite
           
     Write-Verbose "[start] Creating a new firewall rule $FirewallRuleName for the website in database server $DatabaseServerName."
     
-    $s = Get-AzureSubscription -Current
+    # $s = Get-AzureSubscription -Current
+	$s = Get-AzureSubscription -Current -ExtendedDetails
     $subscriptionID = $s.SubscriptionId
     $thumbprint = $s.Certificate.Thumbprint
     if (!($subscriptionID -and $thumbprint)) {throw "Error: Cannot get Azure subscription ID and thumbprint. Failed in New-FirewallRuleForWebsite in New-AzureSql.ps1"}
