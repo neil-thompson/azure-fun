@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Automation", "Automation", "{770A1033-9877-4FDA-8895-CDC8C1EAFDFD}"
 	ProjectSection(SolutionItems) = preProject
 		Automation\New-AzureSql.ps1 = Automation\New-AzureSql.ps1
@@ -8,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Automation", "Automation", 
 		Automation\New-AzureWebsiteEnv.ps1 = Automation\New-AzureWebsiteEnv.ps1
 		Automation\Publish-AzureWebsite.ps1 = Automation\Publish-AzureWebsite.ps1
 		Automation\pubxml.template = Automation\pubxml.template
+		TakeItAllDown.ps1 = TakeItAllDown.ps1
 		Automation\website-environment.template = Automation\website-environment.template
 	EndProjectSection
 EndProject
